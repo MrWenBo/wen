@@ -7,6 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wenSpring" />
+        <module name="power" />
+        <module name="user" />
+        <module name="power1" />
+        <module name="order" />
       </profile>
     </annotationProcessing>
   </component>

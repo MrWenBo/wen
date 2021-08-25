@@ -52,7 +52,6 @@ public class MyLinkedBlockingQueue<E> {
         }
     }
 
-
     private void enqueue(Node<E> node){
         last = last.next = node;
     }
@@ -89,8 +88,6 @@ public class MyLinkedBlockingQueue<E> {
         if (c == 0){
             signalNotEmpty();
         }
-
-
     }
     public E take() throws InterruptedException{
         E x;
@@ -115,6 +112,4 @@ public class MyLinkedBlockingQueue<E> {
         }
         return x;
     }
-
-
 }
