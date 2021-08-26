@@ -21,10 +21,10 @@ public class AppConfig {
         return new RestTemplate();
     }
 
-    @Bean
-    public TomcatServletWebServerFactory tomcat(){
-        TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();
-        tomcat.setPort(5000);
-        return tomcat;
-    }
+//    @Bean
+//    public TomcatServletWebServerFactory tomcat(){
+//        TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();
+//        tomcat.setPort(5000);
+//        return tomcat;
+//    }
 }

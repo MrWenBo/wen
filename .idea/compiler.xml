@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="eureka" />
         <module name="wenSpring" />
+        <module name="eureka1" />
         <module name="power" />
+        <module name="eureka2" />
         <module name="user" />
         <module name="power1" />
         <module name="order" />

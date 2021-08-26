@@ -2,19 +2,19 @@ package com.wen;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
  * @author ：wenbo
- * @date ：Created in 2021/8/25 7:23 下午
+ * @date ：Created in 2021/8/25 9:33 下午
  * @description：
  * @modified By：
  * @version: $
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class AppPowerServer {
+@EnableEurekaServer
+public class AppEureka3001 {
     public static void main(String[] args) {
-        SpringApplication.run(AppPowerServer.class);
+        SpringApplication.run(AppEureka3001.class);
     }
 }
