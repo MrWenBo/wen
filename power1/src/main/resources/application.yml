@@ -11,4 +11,4 @@ eureka:
     lease-expiration-duration-in-seconds: 30
 spring:
   application:
-    name: server-power-1
+    name: server-power
