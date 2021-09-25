@@ -30,6 +30,7 @@
         <module>eureka1</module>
         <module>eureka2</module>
         <module>loadbalanced</module>
+        <module>dubbovip</module>
     </modules>
 
     <dependencies>
@@ -45,11 +46,11 @@
             <version>4.1.32.Final</version>
         </dependency>
 
-<!--        <dependency>-->
-<!--            <groupId>org.apache.zookeeper</groupId>-->
-<!--            <artifactId>zookeeper</artifactId>-->
-<!--            <version>3.4.11</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.4.11</version>
+        </dependency>
 
 <!--        <dependency>-->
 <!--            <groupId>com.github.sgroschupf</groupId>-->
