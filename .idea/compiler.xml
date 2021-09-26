@@ -13,6 +13,7 @@
         <module name="power" />
         <module name="eureka2" />
         <module name="user" />
+        <module name="dubbovip" />
         <module name="power1" />
         <module name="order" />
       </profile>
