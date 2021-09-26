@@ -17,5 +17,8 @@
         <module name="order" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbovip" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
